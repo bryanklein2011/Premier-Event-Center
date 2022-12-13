@@ -347,10 +347,10 @@ button,
 [type=submit] {
   -webkit-appearance: button;
 }
-button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
+button:,
+[type=button]
+[type=reset],
+[type=submit] {
   cursor: pointer;
 }
 
@@ -406,10 +406,10 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
+rtl:raw:
 [type="tel"],
 [type="url"],
-[type="email"],
+[type="info@premierathletesnm.com"],
 [type="number"] {
   direction: ltr;
 }
